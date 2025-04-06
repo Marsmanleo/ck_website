@@ -64,18 +64,17 @@ This is the official website for Chi Keong Electric Shop in Macau, showcasing th
 
 ```
 ck_website/
-├── .vitepress/         # VitePress configuration
-│   ├── config.mts      # Site configuration
-│   └── theme/          # Custom theme components
 ├── public/             # Static assets
-│   └── images/         # Image files
-├── components/         # Vue components
-├── pages/              # Content pages
-│   ├── zh/             # Chinese pages
-│   ├── en/             # English pages
-│   └── pt/             # Portuguese pages
-├── index.md            # Homepage
-├── package.json        # Project dependencies
+│   ├── doc/           # Document files
+│   │   ├── phone.md   # Phone related documents
+│   │   └── shop.md    # Shop related documents
+│   └── images/        # Image files
+│       ├── icon/      # Icons
+│       └── logo/      # Logos
+├── index.md           # Homepage
+├── api-examples.md    # API examples
+├── markdown-examples.md # Markdown examples
+├── package.json       # Project dependencies
 └── README.md           # This file
 ```
 
