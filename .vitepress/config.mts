@@ -7,7 +7,7 @@ export default defineConfig({
   description: "ck website",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "../public/images/logo/logo_c.png",
+    logo: "/public/images/logo/logo_c.png",
     nav: [
       { text: "首頁", link: "/" },
       // { text: "Examples", link: "/markdown-examples" },
